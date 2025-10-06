@@ -89,7 +89,7 @@ int main() {
     printf("\n");
 
     if (fabs(D) < 1e-6) {
-        printf("Determinante nulo — sistema sem solução unica.\n");
+        printf("Determinante nulo — sistema sem solucao unica.\n");
         printf("\n");
         return 0;
     }
