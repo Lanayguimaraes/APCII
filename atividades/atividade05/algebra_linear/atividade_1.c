@@ -59,12 +59,12 @@ int main() {
     printf("\n");
 
     if (scanf("%d", &N) != 1 || (N < 2 || N > 4)) {
-        printf("Entrada inválida. Por favor, insira um número inteiro entre 2 e 4.\n");
+        printf("Entrada invalida. Por favor, insira um numero inteiro entre 2 e 4.\n");
         printf("\n");
         return 1;
     }
 
-    // * Declaração das matrizes escolhida pelo usuario * //
+    // * Declaracao das matrizes escolhidas pelo usuario * //
     int matrizA[N][N];
     int matrizB[N][N];
     int matrizC[N][N];
@@ -76,9 +76,9 @@ int main() {
     // * calculo da multiplicacao * //
     multiplicar_matrizes(N, matrizA, matrizB, matrizC);
 
-    // * Impressão das matrizes * //
+    // * Impressao das matrizes * //
     printf("\n ==============================\n"); 
-    printf("Resultado da multiplicaçao das matrizes:\n");
+    printf("Resultado da multiplicacao das matrizes:\n");
 
 
     imprimir_matriz(N, matrizA, "Matriz A");
