@@ -1,3 +1,7 @@
+// Sistema Linear //
+// Lanay Guimarães de Paiva - 2512130054 //
+
+
 #include <stdio.h>
 #include <math.h>
 
